@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /Pemrograman_web/TukangRoti.com/
+RewriteBase /Code/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
