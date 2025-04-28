@@ -1,0 +1,77 @@
+body{
+    font-family: 'Montserrat';
+}
+.page-1{
+    background-image: url('../pic/bg-page1-partner.png');
+    width: 100%;
+    height: 170vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.2rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 6.5rem;
+    margin-right: 1rem;
+}
+
+.nav_links{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search_box {
+    background-color: #FFF6F64D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.99rem;
+}
+
+.search_box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 0.3rem;
+    padding: 0.3rem;
+    color: white;   
+}
+
+.search_box input::placeholder {
+    color: white;
+}
+
+.search_box svg {
+    color: #FFF6F64D;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.container-page-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.page-1 .container-page-1 h1 {
+    color: #F8E1B7;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+}
