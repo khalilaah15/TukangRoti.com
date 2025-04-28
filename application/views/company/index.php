@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Company</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="<?php echo base_url('assets/images/company-history.jpg'); ?>" class="img-fluid rounded shadow" alt="Sejarah TukangRoti.com">
+                    <img src="<?php echo base_url('assets/pic/Company.jpg'); ?>" class="img-fluid rounded shadow" alt="Sejarah TukangRoti.com">
                 </div>
                 <div class="col-lg-6">
                     <h2 class="fw-bold mb-4">Sejarah Kami</h2>

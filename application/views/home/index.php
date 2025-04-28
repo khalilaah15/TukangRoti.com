@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 
 <body>
-    <section class="hero position-relative">
+    <!-- <section class="hero position-relative">
         <div class="overlay"></div>
         <div class="container">
             <div class="row min-vh-75 align-items-center">
@@ -24,13 +24,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="about py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="<?php echo base_url('assets/images/about-company.jpg'); ?>" alt="About TukangRoti.com" class="img-fluid rounded shadow">
+                    <img src="<?php echo base_url('assets/pic/about_home.jpg'); ?>" alt="About TukangRoti.com" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
                     <div class="section-header mb-4">
@@ -138,46 +138,46 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="product-card h-100">
                         <div class="product-img position-relative">
-                            <img src="<?php echo base_url('assets/images/products/coffee_bun.jpg'); ?>" alt="Coffee Bun" class="img-fluid">
+                            <img src="<?php echo base_url('assets/pic/Tiger_Roll.JPG'); ?>" alt="Coffee Bun" class="img-fluid">
                             <div class="product-tag">Terlaris</div>
                         </div>
                         <div class="product-info p-3">
-                            <h5 class="fw-bold">Coffee Bun</h5>
-                            <p class="mb-0">Roti lembut dengan topping buttery coffee yang renyah di luar.</p>
+                            <h5 class="fw-bold">Tiger Roll</h5>
+                            <p class="mb-0"><i>"Rasakan sensasi lembutnya roti premium dengan lapisan buttery coffee renyah yang menggoda setiap gigitan. Tiger Roll, pilihan sempurna untuk teman kopi atau momen istimewa Anda!"</i></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="product-card h-100">
                         <div class="product-img position-relative">
-                            <img src="<?php echo base_url('assets/images/products/cheese_bun.jpg'); ?>" alt="Cheese Bun" class="img-fluid">
+                            <img src="<?php echo base_url('assets/pic/Brownie.JPG'); ?>" alt="Cheese Bun" class="img-fluid">
                         </div>
                         <div class="product-info p-3">
-                            <h5 class="fw-bold">Cheese Bun</h5>
-                            <p class="mb-0">Roti lembut dengan isian keju premium yang creamy.</p>
+                            <h5 class="fw-bold">Brownie</h5>
+                            <p class="mb-0"><i>"Kenikmatan tiada tara! Brownie lembut berpadu dengan isian keju premium yang creamy, menghadirkan rasa mewah dalam setiap potongan. Satu gigit, langsung jatuh cinta!"</i></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="product-card h-100">
                         <div class="product-img position-relative">
-                            <img src="<?php echo base_url('assets/images/products/choco_croissant.jpg'); ?>" alt="Chocolate Croissant" class="img-fluid">
+                            <img src="<?php echo base_url('assets/pic/Chocolate_Bun.JPG'); ?>" alt="Chocolate Croissant" class="img-fluid">
                             <div class="product-tag">Terlaris</div>
                         </div>
                         <div class="product-info p-3">
-                            <h5 class="fw-bold">Chocolate Croissant</h5>
-                            <p class="mb-0">Croissant berlapis dengan isian coklat berkualitas tinggi.</p>
+                            <h5 class="fw-bold">Chocolate Bun</h5>
+                            <p class="mb-0"><i>"Croissant berlapis dengan isian coklat berkualitas tinggi yang lumer di mulut. Chocolate Bun, sahabat setia pecinta cokelat sejati, siap manjakan harimu kapan saja!"</i></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="product-card h-100">
                         <div class="product-img position-relative">
-                            <img src="<?php echo base_url('assets/images/products/cinnamon_roll.jpg'); ?>" alt="Cinnamon Roll" class="img-fluid">
+                            <img src="<?php echo base_url('assets/pic/Ori_Bun.JPG'); ?>" alt="Cinnamon Roll" class="img-fluid">
                         </div>
                         <div class="product-info p-3">
-                            <h5 class="fw-bold">Cinnamon Roll</h5>
-                            <p class="mb-0">Roti gulung kayu manis dengan cream cheese frosting.</p>
+                            <h5 class="fw-bold">Original Bun</h5>
+                            <p class="mb-0"><i>"Manisnya gulungan kayu manis berpadu dengan cream cheese frosting yang lembut, membuat Original Bun jadi pilihan sempurna untuk memanjakan lidah dan menghangatkan suasana."</i></p>
                         </div>
                     </div>
                 </div>
@@ -201,8 +201,8 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="testimonial-item text-center p-4">
-                                    <img src="<?php echo base_url('assets/images/partners/partner1.jpg'); ?>" alt="Partner 1" class="rounded-circle mb-3" width="80">
-                                    <h5 class="fw-bold">Budi Santoso</h5>
+                                    <img src="<?php echo base_url('assets/pic/Vino.jpg'); ?>" alt="Partner 1" class="rounded-circle mb-3" width="80">
+                                    <h5 class="fw-bold">Vino Funny</h5>
                                     <p class="text-muted">Mitra TukangRoti.com Bandung</p>
                                     <div class="rating mb-3">
                                         <i class="fas fa-star text-warning"></i>
@@ -216,8 +216,8 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="testimonial-item text-center p-4">
-                                    <img src="<?php echo base_url('assets/images/partners/partner2.jpg'); ?>" alt="Partner 2" class="rounded-circle mb-3" width="80">
-                                    <h5 class="fw-bold">Anita Wijaya</h5>
+                                    <img src="<?php echo base_url('assets/pic/Hazqy.jpg'); ?>" alt="Partner 2" class="rounded-circle mb-3" width="80">
+                                    <h5 class="fw-bold">Hazqy Skibidy</h5>
                                     <p class="text-muted">Mitra TukangRoti.com Surabaya</p>
                                     <div class="rating mb-3">
                                         <i class="fas fa-star text-warning"></i>
@@ -226,7 +226,7 @@
                                         <i class="fas fa-star text-warning"></i>
                                         <i class="fas fa-star text-warning"></i>
                                     </div>
-                                    <p class="testimonial-text">"Coffee Bun dari TukangRoti.com langsung menjadi favorit di Surabaya. Tim support sangat membantu dalam tahap awal operasional. Sekarang saya sudah memiliki 3 gerai di kota ini."</p>
+                                    <p class="testimonial-text">"Chocolate Bun dari TukangRoti.com langsung menjadi favorit di Surabaya. Tim support sangat membantu dalam tahap awal operasional. Sekarang saya sudah memiliki 3 gerai di kota ini."</p>
                                 </div>
                             </div>
                         </div>
