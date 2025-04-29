@@ -1,0 +1,27 @@
+:root{
+    --coklat: #843d0d;
+    --putih: #fff;
+}
+.btn-primary,
+.btn-outline-primary,
+.btn.btn-primary,
+.btn.btn-outline-primary {
+    background-color: var(--coklat) !important;
+    border-color: var(--coklat) !important;
+    color: var(--putih) !important;
+}
+.btn-outline-primary {
+    background-color: transparent !important;
+    color: var(--coklat) !important;
+}
+.btn-outline-primary:hover {
+    background-color: var(--putih) !important;
+    color: var(--coklat) !important;
+}
+.btn.btn-primary.btn-lg:hover{
+    background-color: var(--putih) !important;
+    color: var(--coklat) !important;
+}
+.icon-box i {
+    color: #843d0d !important;
+}

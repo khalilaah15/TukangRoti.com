@@ -1,0 +1,13 @@
+:root{
+    --coklat: #843d0d;
+    --putih: #fff;
+}
+.btn.btn-primary.btn-lg,.btn.btn-secondary{
+    background-color: var(--coklat) !important;
+    border-color: var(--coklat) !important;
+    color: var(--putih) !important;
+}
+.btn.btn-primary.btn-lg:hover,.btn.btn-secondary:hover{
+    background-color: var(--putih) !important;
+    color: var(--coklat) !important;
+}

@@ -5,26 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/home.css'); ?>">
 </head>
 
 <body>
-    <!-- <section class="hero position-relative">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row min-vh-75 align-items-center">
-                <div class="col-lg-6">
-                    <div class="hero-content text-white">
-                        <h1 class="display-4 fw-bold mb-4">Memanggang Kesuksesan Bersama</h1>
-                        <p class="lead mb-4">Bergabunglah dengan TukangRoti.com dan jadilah bagian dari jaringan bakery premium terkemuka di Indonesia.</p>
-                        <div class="d-flex flex-wrap gap-2">
-                            <a href="<?php echo base_url('partner'); ?>" class="btn btn-primary btn-lg">Jadi Partner</a>
-                            <a href="<?php echo base_url('product'); ?>" class="btn btn-outline-light btn-lg">Lihat Produk</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <section class="about py-5">
         <div class="container">
@@ -68,7 +53,7 @@
         </div>
     </section>
 
-    <section class="why-partner py-5 bg-light">
+    <section class=" why-partner py-5 bg-light">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="fw-bold">Mengapa Bermitra dengan Kami?</h2>
@@ -244,12 +229,6 @@
         </div>
     </section>
 
-    <section class="cta py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="cta-box bg-primary text-white text-center p-5 rounded">
-                        <h2 class="fw-bold mb-3">Siap
 </body>
 
 </html>
