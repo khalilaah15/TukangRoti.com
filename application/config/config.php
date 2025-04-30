@@ -24,6 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/Code';
+// $config['base_url'] = 'http://tukangroti.infinityfreeapp.com/';
 
 /*
 |--------------------------------------------------------------------------

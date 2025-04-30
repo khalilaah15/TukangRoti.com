@@ -27,8 +27,8 @@
                     ['name' => 'Tiger Roll', 'image' => 'Tiger_Roll.JPG', 'desc' => 'Croissant gulung premium dengan lapisan cokelat lezat dan tampilan menggoda.'],
                     ['name' => 'Brownie', 'image' => 'Brownie.JPG', 'desc' => 'Brownie lembut berpadu kayu manis dan topping frosting yang menggugah selera.'],
                     ['name' => 'Roti Tawar', 'image' => 'Roti_Tawar.JPG', 'desc' => 'Roti serbaguna dengan aroma kayu manis yang ringan dan tekstur lembut.'],
-                    ['name' => 'Roti Ice Cream', 'image' => 'Roti_Icecream.JPG', 'desc' => 'Paduan unik roti dan es krim yang manis, menyegarkan, dan bikin ketagihan.'],
-                    ['name' => 'Roti Bun Lima Rasa', 'image' => 'Roti_Bun5.JPG', 'desc' => 'Lima varian rasa dalam satu sajian bun warna-warni yang manis dan harum.']
+                    ['name' => 'Bun Ice Cream', 'image' => 'Roti_Icecream.JPG', 'desc' => 'Paduan unik roti dan es krim yang manis, menyegarkan, dan bikin ketagihan.'],
+                    ['name' => 'Mexican Bun 5 Rasa', 'image' => 'Roti_Bun5.JPG', 'desc' => 'Lima varian rasa dalam satu sajian bun warna-warni yang manis dan harum.']
                 ];
                 foreach ($products as $product): ?>
                     <div class="col-md-6 col-lg-3">

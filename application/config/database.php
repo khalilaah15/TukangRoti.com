@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -74,7 +74,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'dsn'	=> '',
+    'dsn'    => '',
     'hostname' => 'localhost', // Server lokal
     'username' => 'root',       // Default username XAMPP
     'password' => '',           // Kosongkan, default XAMPP
@@ -95,3 +95,24 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 
+// $db['default'] = array(
+//     'dsn'   => '',
+//     'hostname' => 'sql200.infinityfree.com',    // ambil dari MySQL Hostname di cPanel
+//     'username' => 'if0_38857483',                // ambil dari MySQL Username di cPanel
+//     'password' => 'tugaskelompok2',              // password yang kamu buat
+//     'database' => 'if0_38857483_tukangroti',         // nama database yang kamu buat
+//     'dbdriver' => 'mysqli',
+//     'dbprefix' => '',
+//     'pconnect' => FALSE,
+//     'db_debug' => (ENVIRONMENT !== 'production'),
+//     'cache_on' => FALSE,
+//     'cachedir' => '',
+//     'char_set' => 'utf8',
+//     'dbcollat' => 'utf8_general_ci',
+//     'swap_pre' => '',
+//     'encrypt' => FALSE,
+//     'compress' => FALSE,
+//     'stricton' => FALSE,
+//     'failover' => array(),
+//     'save_queries' => TRUE
+// );

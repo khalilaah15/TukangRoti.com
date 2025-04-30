@@ -228,6 +228,92 @@
             </div>
         </div>
     </section>
+    <!-- Penambahan Customer feedback -->
+    <section class="customer-feedback py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">Apa Kata Pelanggan Kami</h2>
+                <div class="divider mx-auto"></div>
+                <p class="lead">Pendapat mereka tentang produk kami.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="border p-4 rounded shadow-sm text-center">
+                        <p><i>"Coffee Bun-nya luar biasa! Renyah di luar, lembut di dalam. Wajib coba!"</i></p>
+                        <h6 class="fw-bold">- Lestari, Jakarta</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border p-4 rounded shadow-sm text-center">
+                        <p><i>"Tempat favorit saya untuk ngopi dan ngemil bareng teman. Cozy banget!"</i></p>
+                        <h6 class="fw-bold">- Rian, Bandung</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border p-4 rounded shadow-sm text-center">
+                        <p><i>"Brownie kejunya bikin nagih. Anak-anak juga suka banget."</i></p>
+                        <h6 class="fw-bold">- Yuni, Surabaya</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Penambahan Embed Youtube -->
+    <section class="video-promo py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">Lihat Video Perjalanan Kami</h2>
+                <div class="divider mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/6ZKc7wewiEQ" title="Video 1" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/t7qSfRmvHpo" title="Video 2" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/VeM9jj3JXok" title="Video 3" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Penambahan alamat -->
+    <section class="office-address py-5">
+        <div class="container">
+            <div class="section-header text-center mb-4">
+                <h2 class="fw-bold">Kantor Pusat Kami</h2>
+                <div class="divider mx-auto"></div>
+                <p class="lead">Kami siap melayani Anda dari lokasi strategis di pusat kota.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-sm border-0 mb-4">
+                        <div class="card-body">
+                            <h5 class="fw-bold">Alamat</h5>
+                            <p class="mb-2">
+                                Jalan Rajawali Raya No. 31 Perumnas 1, Bekasi Selatan, Jawa Barat 17144.
+                            </p>
+                            <h6 class="fw-bold mt-4">Kontak</h6>
+                            <p class="mb-1">Telepon: 021-894-65550</p>
+                            <p class="mb-1">Email: info@tukangroti.com</p>
+                        </div>
+                    </div>
+                    <!-- Google Maps Embed -->
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126919.13751493947!2d106.89932306934705!3d-6.2343019944752065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d353c349d7d%3A0x49860097903ee319!2sTukangRoti.com!5e0!3m2!1sid!2sid!4v1745981221645!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
