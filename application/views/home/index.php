@@ -22,8 +22,8 @@
                         <h2 class="fw-bold">Tentang TukangRoti.com</h2>
                         <div class="divider"></div>
                     </div>
-                    <p>TukangRoti.com didirikan pada tahun 2015 dengan visi menjadi jaringan bakery premium terbesar di Indonesia. Diawali dengan satu gerai di Jakarta Selatan, kini kami telah hadir di lebih dari 50 lokasi di berbagai kota besar Indonesia.</p>
-                    <p>Signature product kami, Coffee Bun, telah menjadi favorit pecinta bakery di Indonesia dengan cita rasa khas yang tidak ditemukan di tempat lain.</p>
+                    <p>Sejak 2017, kami hadir melalui brand TukangRoti dengan semangat menyajikan roti lezat berkualitas untuk semua. Kepercayaan konsumen mendorong kami terus tumbuh, berinovasi, dan dipercaya sebagai pelaku usaha kuliner terkemuka.</p>
+                    <p>Tahun 2019, kami memperkuat langkah kami dengan mendirikan PT. ABNA Kuliner untuk membawa profesionalisme, integritas, dan cita rasa terbaik dalam setiap proses produksi. Bersama tim yang solid, kami siap menjangkau lebih luas dan memberikan yang terbaik untuk Indonesia.</p>
                     <div class="d-flex flex-wrap gap-4 mt-4">
                         <div class="achievement text-center">
                             <div class="icon-box mb-3">
@@ -239,7 +239,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="border p-4 rounded shadow-sm text-center">
-                        <p><i>"Coffee Bun-nya luar biasa! Renyah di luar, lembut di dalam. Wajib coba!"</i></p>
+                        <p><i>"Original Bun-nya luar biasa! Renyah di luar, lembut di dalam. Wajib coba!"</i></p>
                         <h6 class="fw-bold">- Lestari, Jakarta</h6>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
     <section class="video-promo py-5 bg-light">
         <div class="container">
             <div class="section-header text-center mb-5">
-                <h2 class="fw-bold">Lihat Video Perjalanan Kami</h2>
+                <h2 class="fw-bold">Lihat Video Tentang Kami</h2>
                 <div class="divider mx-auto"></div>
             </div>
             <div class="row g-4">
@@ -284,6 +284,40 @@
             </div>
         </div>
     </section>
+    <!-- Video Promosi Influencer -->
+    <section class="py-5" style="background-color: #f9f9f9;">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold">Video Promosi oleh Influencer</h2>
+            <div class="divider mx-auto"></div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <!-- Video Pertama -->
+                <div class="col-md-6 mb-4">
+                    <blockquote class="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/reel/C3tuUHhv6_t/"
+                        data-instgrm-version="14"
+                        style="width: 100%; max-width: 100%; margin: auto; border: none;">
+                    </blockquote>
+                </div>
+
+                <!-- Video Kedua -->
+                <div class="col-md-6 mb-4">
+                    <blockquote class="instagram-media"
+                        data-instgrm-permalink="https://www.instagram.com/p/C78QhTap6UE/"
+                        data-instgrm-version="14"
+                        style="width: 100%; max-width: 100%; margin: auto; border: none;">
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Embed Script -->
+    <script async src="//www.instagram.com/embed.js"></script>
+
 
     <!-- Penambahan alamat -->
     <section class="office-address py-5">
