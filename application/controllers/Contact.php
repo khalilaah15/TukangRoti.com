@@ -15,7 +15,7 @@ class Contact extends CI_Controller {
 
     public function index() {
         $this->load->view('templates/header');
-        $this->load->view('contact/index'); // Formulir pendaftaran
+        $this->load->view('contact/index');
         $this->load->view('templates/footer');
     }
 
@@ -29,34 +29,30 @@ class Contact extends CI_Controller {
             'message' => $this->input->post('message', TRUE),
         ];
         $this->Partner_model->insert_partner($data);
-        redirect('contact/list');
+        redirect('contact/index'); 
     }
 
     public function list() {
         $data['partners'] = $this->Partner_model->get_all();
         $this->load->view('templates/header');
-        $this->load->view('contact/list', $data); // Tabel daftar partner
+        $this->load->view('contact/list', $data);
         $this->load->view('templates/footer');
     }
 
-    // Menampilkan halaman edit mitra
     public function edit($id) {
         $partner = $this->Partner_model->get_by_id($id);
     
         if ($partner) {
             $data['partner'] = $partner;
-            $this->load->view('templates/header'); // Tambahkan ini
+            $this->load->view('templates/header');
             $this->load->view('contact/edit', $data);
-            $this->load->view('templates/footer'); // Tambahkan ini
+            $this->load->view('templates/footer');
         } else {
             show_404();
         }
     }
     
-
-    // Mengupdate data mitra
     public function update($id) {
-        // Menangkap data dari formulir
         $data = [
             'name' => $this->input->post('name'),
             'email' => $this->input->post('email'),
@@ -66,11 +62,9 @@ class Contact extends CI_Controller {
             'message' => $this->input->post('message')
         ];
 
-        // Mengupdate data mitra di database
         $result = $this->Partner_model->update_partner($id, $data);
 
         if ($result) {
-            // Jika update berhasil, redirect ke halaman list mitra
             redirect('contact/list');
         } else {
         }

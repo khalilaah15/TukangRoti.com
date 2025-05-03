@@ -131,7 +131,6 @@
                     <div class="product-card h-100">
                         <div class="product-img position-relative">
                             <img src="<?php echo base_url('assets/pic/Tiger_Roll.JPG'); ?>" alt="Coffee Bun" class="img-fluid">
-                            <div class="product-tag">Terlaris</div>
                         </div>
                         <div class="product-info p-3">
                             <h5 class="fw-bold">Tiger Roll</h5>
@@ -154,7 +153,6 @@
                     <div class="product-card h-100">
                         <div class="product-img position-relative">
                             <img src="<?php echo base_url('assets/pic/Chocolate_Bun.JPG'); ?>" alt="Chocolate Croissant" class="img-fluid">
-                            <div class="product-tag">Terlaris</div>
                         </div>
                         <div class="product-info p-3">
                             <h5 class="fw-bold">Chocolate Bun</h5>

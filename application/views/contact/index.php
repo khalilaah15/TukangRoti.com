@@ -60,7 +60,6 @@
         </div>
     </section>
 
-    <!-- Tombol untuk menuju halaman list -->
     <div class="container mt-4">
         <div class="text-center">
             <a href="<?php echo base_url('contact/list'); ?>" class="btn btn-secondary">Lihat Daftar Mitra</a>

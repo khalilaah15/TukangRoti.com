@@ -1,46 +1,64 @@
-<?php $title = "Edit Mitra"; ?>
+<!DOCTYPE html>
+<html lang="en">
 
-<section class="page-header py-5 text-center bg-light">
-    <div class="container">
-        <h1 class="fw-bold">Edit Data Mitra</h1>
-        <p class="lead">Perbarui data Anda di bawah ini.</p>
-    </div>
-</section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/contact.css'); ?>">
+</head>
 
-<section class="contact-form py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <form action="<?php echo base_url('contact/update/'.$partner->id); ?>" method="post" class="p-4 shadow rounded bg-white">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Nama Lengkap</label>
-                        <input type="text" name="name" class="form-control" value="<?= $partner->name; ?>" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Alamat Email</label>
-                        <input type="email" name="email" class="form-control" value="<?= $partner->email; ?>" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">Nomor Telepon</label>
-                        <input type="text" name="phone" class="form-control" value="<?= $partner->phone; ?>" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="address" class="form-label">Alamat</label>
-                        <textarea name="address" class="form-control" required><?= $partner->address; ?></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="city" class="form-label">Kota</label>
-                        <input type="text" name="city" class="form-control" value="<?= $partner->city; ?>" required>
-                    </div>
-                    <div class="mb-3">
-                    <label for="message" class="form-label">Alasan Bermitra</label>
-                        <input type="text" name="message" class="form-control" value="<?= $partner->message; ?>" required>
-                    </div>
-                    <div class="d-grid">
-                        <button type="submit" class="btn btn-primary btn-lg">Perbarui Data</button>
-                    </div>
-                </form>
+<body>
+    <?php $title = "Edit Mitra"; ?>
+
+    <section class="page-header py-5 text-center bg-light">
+        <div class="container">
+            <h1 class="fw-bold">Edit Data Mitra</h1>
+            <p class="lead">Perbarui data Anda di bawah ini.</p>
+        </div>
+    </section>
+
+    <section class="contact-form py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form action="<?php echo base_url('contact/update/' . $partner->id); ?>" method="post" class="p-4 shadow rounded bg-white">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" name="name" class="form-control" value="<?= $partner->name; ?>" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Alamat Email</label>
+                            <input type="email" name="email" class="form-control" value="<?= $partner->email; ?>" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Nomor Telepon</label>
+                            <input type="text" name="phone" class="form-control" value="<?= $partner->phone; ?>" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Alamat</label>
+                            <textarea name="address" class="form-control" required><?= $partner->address; ?></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="city" class="form-label">Kota</label>
+                            <input type="text" name="city" class="form-control" value="<?= $partner->city; ?>" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Alasan Bermitra</label>
+                            <input type="text" name="message" class="form-control" value="<?= $partner->message; ?>" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Perbarui Data</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+</body>
+
+</html>

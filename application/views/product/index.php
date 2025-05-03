@@ -13,17 +13,6 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
-        .fw-bold {
-            font-size: 1.5rem;
-        }
-
-        .text-muted {
-            font-size: 1.3rem;
-        }
-
-        .mb-4.fw-bold {
-            font-size: 2.2rem;
-        }
     </style>
 </head>
 

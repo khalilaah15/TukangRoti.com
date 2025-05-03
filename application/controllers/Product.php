@@ -9,8 +9,6 @@ class Product extends CI_Controller {
     public function index() {
         $data['title'] = 'Our Products - TukangRoti.com';
         $data['description'] = 'Beragam produk bakery lezat dari TukangRoti.com';
-        
-        // Example product data, in real application this would come from database
         $data['products'] = [
             [
                 'id' => 1,
