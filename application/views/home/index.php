@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/home.css'); ?>">
+    <style>
+        .border.p-4.rounded.shadow-sm {
+            border: 2px solid #843d0d !important;
+        }
+    </style>
 </head>
 
 <body>
 
-    <section class="about py-5">
+    <section class="about py-5" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="<?php echo base_url('assets/pic/about_home.jpg'); ?>" alt="About TukangRoti.com" class="img-fluid rounded shadow">
+                    <img src=" <?php echo base_url('assets/pic/about_home.jpg'); ?>" alt="About TukangRoti.com" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
                     <div class="section-header mb-4">
@@ -53,7 +60,7 @@
         </div>
     </section>
 
-    <section class=" why-partner py-5 bg-light">
+    <section class=" why-partner py-5 bg-light" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="fw-bold">Mengapa Bermitra dengan Kami?</h2>
@@ -61,7 +68,7 @@
                 <p class="lead">Dapatkan keuntungan menjadi bagian dari TukangRoti.com</p>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="200">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center p-4">
                             <div class="icon-box mb-3">
@@ -72,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="400">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center p-4">
                             <div class="icon-box mb-3">
@@ -83,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="600">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center p-4">
                             <div class="icon-box mb-3">
@@ -94,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="800">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body text-center p-4">
                             <div class="icon-box mb-3">
@@ -112,7 +119,7 @@
         </div>
     </section>
 
-    <section class="featured-products py-5">
+    <section class="featured-products py-5" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="fw-bold">Produk Unggulan Kami</h2>
@@ -173,7 +180,7 @@
         </div>
     </section>
 
-    <section class="testimonials py-5 bg-light">
+    <section class="testimonials py-5 bg-light" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="fw-bold">Partner Kami Berkata</h2>
@@ -229,37 +236,56 @@
         </div>
     </section>
     <!-- Penambahan Customer feedback -->
-    <section class="customer-feedback py-5">
+    <section class="customer-feedback py-5" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="fw-bold">Apa Kata Pelanggan Kami</h2>
                 <div class="divider mx-auto"></div>
                 <p class="lead">Pendapat mereka tentang produk kami.</p>
             </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="border p-4 rounded shadow-sm text-center">
-                        <p><i>"Original Bun-nya luar biasa! Renyah di luar, lembut di dalam. Wajib coba!"</i></p>
-                        <h6 class="fw-bold">- Lestari, Jakarta</h6>
+
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <div class="border p-4 rounded shadow-sm">
+                            <p><i>"Original Bun-nya luar biasa! Renyah di luar, lembut di dalam. Wajib coba!"</i></p>
+                            <h6 class="fw-bold">- Lestari, Jakarta</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="border p-4 rounded shadow-sm">
+                            <p><i>"Tempat favorit saya untuk ngopi dan ngemil bareng teman. Cozy banget!"</i></p>
+                            <h6 class="fw-bold">- Rian, Bandung</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="border p-4 rounded shadow-sm">
+                            <p><i>"Brownie kejunya bikin nagih. Anak-anak juga suka banget."</i></p>
+                            <h6 class="fw-bold">- Yuni, Surabaya</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="border p-4 rounded shadow-sm text-center">
-                        <p><i>"Tempat favorit saya untuk ngopi dan ngemil bareng teman. Cozy banget!"</i></p>
-                        <h6 class="fw-bold">- Rian, Bandung</h6>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="border p-4 rounded shadow-sm text-center">
-                        <p><i>"Brownie kejunya bikin nagih. Anak-anak juga suka banget."</i></p>
-                        <h6 class="fw-bold">- Yuni, Surabaya</h6>
-                    </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <!-- Indicators -->
+                <div class="carousel-indicators mt-4">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Penambahan Embed Youtube -->
-    <section class="video-promo py-5 bg-light">
+    <section class="video-promo py-5 bg-light" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="section-header text-center mb-5">
                 <h2 class="fw-bold">Lihat Video Tentang Kami</h2>
@@ -285,7 +311,7 @@
         </div>
     </section>
     <!-- Video Promosi Influencer -->
-    <section class="py-5" style="background-color: #f9f9f9;">
+    <section class="py-5 bg-light" data-aos="fade-up" data-aos-duration="1200">
         <div class="section-header text-center mb-5">
             <h2 class="fw-bold">Video Promosi oleh Influencer</h2>
             <div class="divider mx-auto"></div>
@@ -320,7 +346,7 @@
 
 
     <!-- Penambahan alamat -->
-    <section class="office-address py-5">
+    <section class="office-address py-5" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="section-header text-center mb-4">
                 <h2 class="fw-bold">Kantor Pusat Kami</h2>
@@ -348,7 +374,10 @@
             </div>
         </div>
     </section>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

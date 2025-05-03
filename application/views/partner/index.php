@@ -6,6 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Partner</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Animate -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/partner.css'); ?>">
     <style>
@@ -29,14 +35,14 @@
 </head>
 
 <body>
-    <section class="page-header py-5 text-center bg-light">
+    <section class="page-header py-5 text-center bg-light animate__animated animate__fadeInUp" data-aos="fade-up" data-aos-duration="1300">
         <div class="container">
             <h1 class="fw-bold">Bermitra dengan Kami</h1>
             <p class="lead">Peluang emas untuk sukses bersama TukangRoti.com</p>
         </div>
     </section>
 
-    <section class="partner-info py-5">
+    <section class="partner-info py-5 animate__animated animate__fadeInUp" data-aos="fade-up" data-aos-duration="1300">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -55,13 +61,13 @@
         </div>
     </section>
     <!-- Tahapan menjadi Mitra -->
-    <section class="kemitraan-steps py-5 bg-light">
+    <section class="kemitraan-steps py-5 bg-light" data-aos="fade-up" data-aos-duration="1300">
         <div class="container">
             <h2 class="fw-bold text-center mb-5">Tahapan Menjadi Mitra TukangRoti.com</h2>
             <div class="row gy-4">
 
                 <!-- Tahap 1 -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                     <div class="p-4 border rounded bg-white h-100 shadow-sm">
                         <h5 class="fw-bold text-primary">TAHAP 1: Bertemu & Visit Produksi</h5>
                         <p>Kami sarankan Anda untuk bertemu langsung dan mendapatkan <strong>Sampel Gratis</strong>, serta <strong>Penjelasan Booklet</strong> di lokasi yang Anda sukai. Untuk investasi yang signifikan, Anda juga dapat <strong>mengunjungi rumah produksi</strong> kami terlebih dahulu.</p>
@@ -69,7 +75,7 @@
                 </div>
 
                 <!-- Tahap 2 -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                     <div class="p-4 border rounded bg-white h-100 shadow-sm">
                         <h5 class="fw-bold text-primary">TAHAP 2: Pencarian & Analisa Lokasi</h5>
                         <p>Kami bantu mencarikan lokasi dengan <em>fokus pada potensi penjualan</em>, bukan sekadar lokasi dekat rumah Anda. Analisa dilakukan sistematis dengan skoring.</p>
@@ -78,7 +84,7 @@
                 </div>
 
                 <!-- Tahap 3 -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                     <div class="p-4 border rounded bg-white h-100 shadow-sm">
                         <h5 class="fw-bold text-primary">TAHAP 3: Kontrak & Investasi</h5>
                         <p>Setelah lokasi disetujui, dilakukan <strong>pembayaran investasi 100%</strong> dan penandatanganan kontrak (dapat diperpanjang gratis). 99% dana digunakan untuk outlet & produk. Renovasi oleh kontraktor pusat tanpa biaya tambahan.</p>
@@ -86,7 +92,7 @@
                 </div>
 
                 <!-- Tahap 4 -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
                     <div class="p-4 border rounded bg-white h-100 shadow-sm">
                         <h5 class="fw-bold text-primary">TAHAP 4: Renovasi, Rekrutmen, dan Training</h5>
                         <p><strong>Renovasi</strong> berlangsung sekitar 3 minggu. Kami bantu <strong>rekrutmen sales</strong> lokal dan menyelenggarakan <strong>training di outlet</strong> (bukan di pusat) secara personal ±5 hari tanpa biaya tambahan.</p>
@@ -94,7 +100,7 @@
                 </div>
 
                 <!-- Tahap 5 -->
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
                     <div class="p-4 border rounded bg-white h-100 shadow-sm">
                         <h5 class="fw-bold text-primary">TAHAP 5: Iklan & Grand Opening</h5>
                         <p>Biaya <strong>iklan Instagram berbayar</strong> sudah termasuk dalam investasi. Opening disarankan dilakukan di akhir pekan dan sudah termasuk <strong>karangan bunga</strong>. Lokasi biasanya terlihat hasilnya dalam 1 bulan.</p>
@@ -105,7 +111,7 @@
         </div>
     </section>
     <!-- Simulasi Keuangan Outlet -->
-    <section class="financial-simulation py-5 bg-white">
+    <section class="financial-simulation py-5 bg-white" data-aos="fade-up" data-aos-duration="1300">
         <div class="container">
             <h2 class="fw-bold text-center mb-4">Simulasi Keuangan Outlet</h2>
             <div class="row justify-content-center">
@@ -147,7 +153,7 @@
         </div>
     </section>
     <!-- Rincian Investasi Kios Outlet -->
-    <section class="investment-details py-5 bg-light">
+    <section class="investment-details py-5 bg-light" data-aos="fade-up" data-aos-duration="1300">
         <div class="container">
             <h2 class="fw-bold text-center mb-5">Rincian Investasi Kios Outlet</h2>
             <div class="row">
@@ -202,7 +208,7 @@
         </div>
     </section>
     <!-- Panduan kemitraan -->
-    <section class="download-guide py-5 text-center bg-white">
+    <section class="download-guide py-5 text-center bg-white" data-aos="fade-up" data-aos-duration="1300">
         <div class="container">
             <h2 class="fw-bold mb-4">Panduan Lengkap Kemitraan</h2>
             <p class="lead mb-4">Tertarik bergabung bersama kami? Unduh dan pelajari <strong>Buku Panduan Kemitraan TukangRoti.com</strong> untuk memahami detail proses, investasi, dan manfaat menjadi mitra resmi kami.</p>
@@ -212,7 +218,7 @@
         </div>
     </section>
     <!-- Section Ajak Bermitra -->
-    <section class="call-to-action py-5 bg-warning text-center">
+    <section class="call-to-action py-5 bg-warning-subtle text-center" data-aos="fade-up" data-aos-duration="1300">
         <div class="container">
             <h2 class="fw-bold mb-3">Ingin Bermitra dengan Kami?</h2>
             <p class="lead mb-4">Jangan ragu untuk menghubungi kami dan jadilah bagian dari kesuksesan TukangRoti.com!</p>
@@ -221,7 +227,10 @@
             </a>
         </div>
     </section>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

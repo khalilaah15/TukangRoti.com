@@ -6,9 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
+    <!-- Animate CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
         .fw-bold {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
         }
 
         .text-muted {
@@ -22,7 +28,7 @@
 </head>
 
 <body>
-    <section class="page-header py-5 text-center bg-light">
+    <section class="page-header py-5 text-center bg-light animate__animated animate__fadeInUp">
         <div class="container">
             <h1 class="fw-bold">Produk Unggulan</h1>
             <p class="lead">Nikmati cita rasa khas dari TukangRoti.com</p>
@@ -57,7 +63,7 @@
         echo '<div class="row g-4">';
         foreach ($products as $product) {
             if ($product['category'] === $kategori) {
-                echo '<div class="col-md-6 col-lg-3">';
+                echo '<div class="col-md-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="1100">';
                 echo '<div class="card h-100 border-0 shadow-sm">';
                 echo '<img src="' . base_url('assets/image/' . $product['image']) . '" class="card-img-top" style="height: 12.5rem; object-fit: cover;" alt="' . $product['name'] . '">';
                 echo '<div class="card-body text-center">';
@@ -73,6 +79,11 @@
     tampilkanProduk($products, 'makanan', 'Makanan');
     tampilkanProduk($products, 'minuman', 'Minuman');
     ?>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

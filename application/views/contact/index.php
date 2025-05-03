@@ -6,19 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <!-- Animate CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/contact.css'); ?>">
 </head>
 
 <body>
-    <section class="page-header py-5 text-center bg-light">
+    <section class="page-header py-5 text-center bg-light animate__animated animate__zoomIn">
         <div class="container">
             <h1 class="fw-bold">Daftar Sebagai Mitra</h1>
             <p class="lead">Isi formulir berikut untuk bergabung bersama kami</p>
         </div>
     </section>
 
-    <section class="contact-form py-5">
+    <section class="contact-form py-5 animate__animated animate__zoomIn">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
